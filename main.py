@@ -16,9 +16,6 @@ import wget
  #   print(f'Hi, {name}')  # Press Strg+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-#if __name__ == '__main__':
- #   print_hi('PyCharm')
 
 driver= webdriver.Chrome('C:/Users/g1007/chromedriver_win32/chromedriver.exe')
 driver.get('https://www.instagram.com/')
@@ -78,3 +75,6 @@ for image in images:
 
 #logout = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[contains(text(), 'Abmelden')]")))
 driver.close()
+
+
+#if __name__ == '__main__':
